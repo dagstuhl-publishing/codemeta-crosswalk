@@ -1,15 +1,14 @@
 # beta-codemeta-crosswalk
 
-This repository has been developed as part of the FAIR4CoreEOSC project to address metadata conversions for some of Dagstuhl's
-s use cases, namely,
+This repository has been developed as part of the FAIRCore4EOSC project to address metadata conversions for some Dagstuhl's use cases, namely,
 
-| From     | To           |
-|----------|--------------|
-| CodeMeta | DataCite[^1] |
-| CodeMeta | BibLatex[^2] |
-| CodeMeta | BibTex[^3]   |
+| From     | To            |
+|----------|---------------|
+| CodeMeta | DataCite [^1] |
+| CodeMeta | BibLatex [^2] |
+| CodeMeta | BibTex [^3]   |
 
-The pattern used in codemeta.json conversion to the these schemes is extendable to other metadata schemes as well. The initial mappings are defined in this repository [^4].
+The codemeta conversion pattern to the above schemes is extendable to other metadata schemes as template classes located under `Schemes` directory. The initial mappings are defined in this repository [^4].
 
 ## Installation Steps:
 
