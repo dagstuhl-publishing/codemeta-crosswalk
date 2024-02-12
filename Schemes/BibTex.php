@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @Author: Ramy-Badr-Ahmed
+ * @Desc: Codemeta conversions
+ * @Repo: https://github.com/dagstuhl-publishing/beta-codemeta-crosswalk
+ */
+
 namespace Schemes;
 
 use Illuminate\Support\Arr;

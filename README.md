@@ -3,11 +3,13 @@
 This repository has been developed as part of the FAIR4CoreEOSC project to address metadata conversions for some of Dagstuhl's
 s use cases, namely,
 
-    1. CodeMeta --> DataCite
-    2. CodeMeta --> BibLatex
-    3. CodeMeta --> BibTex
+| From     | To           |
+|----------|--------------|
+| CodeMeta | DataCite[^1] |
+| CodeMeta | BibLatex[^2] |
+| CodeMeta | BibTex[^3]   |
 
-The pattern used in codemeta.json conversion is extendable to other metadata schemes. 
+The pattern used in codemeta.json conversion to the these schemes is extendable to other metadata schemes as well. The initial mappings are defined in this repository [^4].
 
 ## Installation Steps:
 
@@ -93,4 +95,9 @@ Psy Shell v0.12.0 (PHP 8.2.0 — cli) by Justin Hileman
 > Validations use the `Illuminate\Validation\Validator` package.
 > Error messages and rules can be customised in `CodeMeta/conversionsValidations.php` as per the package syntax.
 
-        
+
+### References
+[^1]: [DataCite Metadata Schema](https://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf).
+[^2]: [BibLATEX style extension for Software](https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-software/software-biblatex.pdf).
+[^3]: [BibTex](https://en.wikipedia.org/wiki/BibTeX).
+[^4]: [Codemeta Crosswalk](https://github.com/codemeta/codemeta/blob/master/crosswalk.csv).        
