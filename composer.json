@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php": "^8.2",
+        "psy/psysh": "^0.12.0",
+        "illuminate/support": "^10.39",
+        "composer/spdx-licenses": "^1.5",
+        "illuminate/validation": "^10.43"
+    },
+    "autoload": {
+        "psr-4": {
+            "Conversions\\": "Conversions",
+            "Schemes\\": "Schemes"
+        }
+    }
+}

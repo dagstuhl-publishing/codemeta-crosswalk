@@ -1,0 +1,155 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/8504-3549",
+            "email": "l.b@de.de",
+            "givenName": "Ludwig",
+            "familyName": "Beethoven",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "MIT"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/1825-0097",
+            "email": "a.v@italy.it",
+            "givenName": "Antonio",
+            "familyName": "Vivaldi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Nasa"
+            }
+        }
+    ],
+    "dateCreated": "2023-06-06",
+    "description": "Software for Numerical Computation",
+    "name": "Matlab Reinforcement Learning Toolbox",
+    "license": "https://spdx.org/licenses/blessing.html",
+    "programmingLanguage": [
+        "php",
+        "c++"
+    ],
+    "downloadUrl": "https://download.com",
+    "releaseNotes": "A release for Deep Reinforcement Learning",
+    "version": "1.5.1",
+    "relatedLink": [
+        "https://relatedLink1.com",
+        "https://relatedLink2.com"
+    ],
+    "funder": [
+        {
+            "@type": "Organization",
+            "@id": "https://cern1.ch",
+            "funding": "EU-Horizon",
+            "name": "LZI-Funded"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://cern2.ch",
+            "funding": "NASA 2023",
+            "name": "MIT"
+        }
+    ],
+    "isPartOf": "https://nodejs.org",
+    "hasPart": "https://nextjs.org",
+    "codeRepository": "https://github.com/openssl/openssl",
+    "datePublished": "2023-06-07",
+    "identifier": "http://dx.doi.org/10.1093/ajae/aaq063",
+    "dateModified": "2023-06-30",
+    "buildInstructions": "https://build-instructions.com",
+    "softwareVersion": "1.5",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Schloss Dagstuhl - Leibniz-Zentrum für Informatik",
+        "url": "https://dagstuhl.com"
+    },
+    "readme": "https://readMe-file-url.co.uk",
+    "installUrl": "https://uk.mathworks.com/products/reinforcement-learning",
+    "contributor": [
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/1825-0097",
+            "givenName": "Johann",
+            "familyName": "Straus",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Vienna"
+            },
+            "email": "j.s@austria.at"
+        },
+        {
+            "@type": "Person",
+            "givenName": "George",
+            "familyName": "Handel",
+            "email": "g.h@london.co.uk",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "London"
+            },
+            "@id": "https://orcid.org/1925-0091"
+        }
+    ],
+    "developmentStatus": "active",
+    "applicationCategory": [
+        "Astronomy",
+        "Machine Learning"
+    ],
+    "keywords": [
+        "Andromeda",
+        "Milky way",
+        "Cyber Physical Systems"
+    ],
+    "runtimePlatform": [
+        ".Net",
+        "JVM",
+        "Cygwin"
+    ],
+    "operatingSystem": [
+        "Debian",
+        "Windows"
+    ],
+    "fileFormat": [
+        "application/sql",
+        "application/mathematica"
+    ],
+    "fileSize": [
+        "1.5GB",
+        "1.7KB"
+    ],
+    "encoding": [
+        "DataDownload",
+        "Media"
+    ],
+    "softwareRequirements": [
+        "Node.js 14.0.1",
+        "python 3.7"
+    ],
+    "referencePublication": [
+        "https://doi.org/10.1016/j.procs.2012.04.202",
+        "https://doi.org/10.1016/j.procs.2012.04.203"
+    ],
+    "issueTracker": "https://github.com/RamyTestAccount/D2",
+    "contIntegration": "https://docs.google.com/spreadsheets/d/1-IAI1L09-n",
+    "maintainer": {
+        "@type": "Person",
+        "@id": "https://orcid.org/1824-0098",
+        "familyName": "Tchaikovsky",
+        "givenName": "Pyotr",
+        "email": "p.tch@russia.ru",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Saint Petersburg"
+        }
+    },
+    "storageRequirements": "12",
+    "memoryRequirements": [
+        "4",
+        "6"
+    ],
+    "processorRequirements": "MIPS",
+    "softwareHelp": "https://software.help.com"
+}
