@@ -8,7 +8,9 @@ This repository has been developed as part of the FAIRCore4EOSC project to addre
 | CodeMeta | BibLatex [^2] |
 | CodeMeta | BibTex [^3]   |
 
-The codemeta conversion pattern to the above schemes is extendable to other metadata schemes as template classes located under `Schemes` directory. The initial mappings are defined in this repository [^4].
+The codemeta conversion pattern to the above schemes is extendable to other metadata schemes as template classes located under `Schemes` directory. The initial keys correspondence is defined in this repository [^4].
+
+> There's a scheme template class that can help see this pattern. Please consult the crosswalk [^4] and scheme documentations to properly construct this class.
 
 ## Installation Steps:
 
