@@ -56,9 +56,9 @@ Psy Shell v0.12.0 (PHP 8.2.0 — cli) by Justin Hileman
 
 > [!Note]
 > By default, codemeta.json is located under 'CodeMeta' directory where an example already exists.
-> $codeMetaPath can directly take codemeta.json as an array
+> `$codeMetaPath` can directly take codemeta.json as an array
 
-- Specify target scheme
+- Specify target scheme (as fully qualified class name)
 
 ```php
 > $dataCite = \Schemes\DataCite::class
