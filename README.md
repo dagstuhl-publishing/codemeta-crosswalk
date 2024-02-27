@@ -74,11 +74,11 @@ Psy Shell v0.12.0 (PHP 8.2.0 — cli) by Justin Hileman
 ```php
 > $errors = NULL;
  
-> $dataCiteFromCodeMeta = CodeMetaConversion::To($dataCite, $codeMetaPath, $e)      // array-formatted
+> $dataCiteFromCodeMeta = CodeMetaConversion::To($dataCite, $codeMetaPath, $errors)      // array-formatted
 
-> $bibLatexFromCodeMeta = CodeMetaConversion::To($bibLatex, $codeMetaPath, $e)      // string-formatted
+> $bibLatexFromCodeMeta = CodeMetaConversion::To($bibLatex, $codeMetaPath, $errors)      // string-formatted
 
-> $bibTexFromCodeMeta = CodeMetaConversion::To($bibTex, $codeMetaPath, $e)          // string-formatted
+> $bibTexFromCodeMeta = CodeMetaConversion::To($bibTex, $codeMetaPath, $errors)          // string-formatted
 ```
 
 - Retrieve errors (if occurred) from the `Illuminate\Support\MessageBag()` instance:
