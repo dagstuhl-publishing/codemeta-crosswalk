@@ -72,7 +72,7 @@ Psy Shell v0.12.0 (PHP 8.2.0 — cli) by Justin Hileman
 - Get the conversion from the specified Codemeta.json:
 
 ```php
-> $errors = NULL;
+> $errors = NULL;    // initialise errors variable
  
 > $dataCiteFromCodeMeta = CodeMetaConversion::To($dataCite, $codeMetaPath, $errors)      // array-formatted
 
