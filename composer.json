@@ -1,4 +1,9 @@
 {
+    "name": "codemeta/crosswalk",
+    "type": "project",
+    "description": "Codemeta conversions to other metadata schemes/styles. Part of the FAIRCORE4EOSC project for LZI-Dagstuhl",
+    "keywords": ["codemeta", "crosswalk", "bibtex", "datacite", "biblatex"],
+    "license": "MIT",
     "require": {
         "php": "^8.2",
         "psy/psysh": "^0.12.0",
@@ -11,5 +16,7 @@
             "Conversions\\": "Conversions",
             "Schemes\\": "Schemes"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
