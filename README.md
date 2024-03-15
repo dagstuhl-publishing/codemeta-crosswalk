@@ -1,5 +1,7 @@
 # beta-codemeta-crosswalk
 
+**Feedback appreciated**: https://github.com/dagstuhl-publishing/codemeta-crosswalk/issues/1
+
 This repository has been developed as part of the FAIRCore4EOSC project to address metadata conversions for some Dagstuhl's use cases, namely,
 
 | From     | To            |
